@@ -1,0 +1,10 @@
+format: jb-book
+root: intro.md
+chapters:
+  - file: resume.md
+  - file: embedded-video.md
+  - file: mlflow-dagshub.md
+  - file: docker-container.md
+  - file: streamlit-app.md
+  - file: MajorProject.ipynb
+  - file: Code-Links.md

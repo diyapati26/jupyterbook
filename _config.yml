@@ -1,0 +1,24 @@
+# Book settings
+title: My Data Science Portfolio
+author: Your Name
+logo: logo.png  # Path to your logo image (you can replace it with your own logo)
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: force
+
+# Optional: If you want a PDF version
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/yourusername/your-repository  # Your GitHub repository URL
+  path_to_book: docs  # Optional path to your book in the repo
+  branch: main  # Use main or master branch
+
+# GitHub buttons for easy navigation
+html:
+  use_issues_button: true  # Add issues button
+  use_repository_button: true  # Add repository button
